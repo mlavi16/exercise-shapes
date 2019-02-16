@@ -1,0 +1,34 @@
+/* Everything styled here can be styled with sytle="attribute: value" in html tags*/
+
+body{
+	color: blue;
+	background-color: lightblue;
+	font-family: 'Coiny', cursive;
+
+}
+h1{
+	color: purple;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 60px;
+}
+h2{
+	text-align: center;
+}
+p{
+	text-align: center;
+	color: violet;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.caption{
+	font-style: italic;
+	color: green;
+	/*border: white solid 2px;*/
+}
+#specialImage{
+	border: dotted red 5px;
+}
