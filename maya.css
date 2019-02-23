@@ -1,0 +1,118 @@
+body{
+	background-color: black;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+}
+h2{
+	color: white;
+}
+h1{
+	color: white;
+}
+h3{
+	color:white;
+}
+p{
+	color: green;
+}
+.blue{
+	color: lightblue;
+	font-family: 'Coiny', cursive;
+
+}
+.yellow{
+	color: yellow;
+	font-family: 'Felipa', cursive;
+
+}
+.pink{
+	color: pink;
+	font-family: 'Pacifico', cursive;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.caption{
+	font-style: italic;
+}
+#img1{
+	border: lightblue dotted 5px;
+}
+
+
+.awesome {
+      
+	  padding-bottom: 30px;
+	  font-family: 'Passion One', cursive;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:100px;
+      font-weight: bold;
+
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
