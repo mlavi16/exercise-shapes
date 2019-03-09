@@ -1,0 +1,100 @@
+.circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	margin-top: 10px;
+	background-color: red;
+}
+
+.triangle {
+	height: 0px;
+	width: 0px;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-top: 50px solid transparent;
+	border-bottom: 75px solid yellow;
+}
+
+.rect {
+	height: 100px;
+	width: 200px;
+	background-color: blue;
+	margin-top: 10px;
+}
+
+#stretch {
+	animation: stretchMove 3s alternate infinite;	
+}
+
+@keyframes stretchMove {
+	from {
+		width: 10px;
+		background-color: red;
+	}
+
+	to {
+		width: 100%;
+		background-color: yellow;
+	}
+}
+
+
+#triangle-mover {
+	position: relative;
+	animation: triangle-path 5s infinite;
+}
+
+@keyframes triangle-path {
+	0% {
+		left: 100px;
+		top: 0px;
+	}
+
+	33% {
+		left: 700px;
+		top: 450px;
+		transform: rotate(120deg);
+	}
+
+	66% {
+		left: 0px;
+		top: 450px;
+		transform: rotate(240deg);
+
+	}
+
+	100% {
+		left: 100px;
+		top: 0px;
+		transform: rotate(360deg);
+
+	}
+}
+
+#zigzagger {
+	position: relative;
+	animation: zigzag 5s infinite alternate; 
+}
+
+@keyframes zigzag {
+	0% {
+		left: 0px;
+		top: 0px;
+	}
+
+	33% {
+		left: 1000px;
+		top: 0px;
+	}
+
+	66% {
+		left: 0px;
+		top: 500px;
+	}
+
+	100% {
+		left: 1000px;
+		top: 500px;
+	}
+
+}
