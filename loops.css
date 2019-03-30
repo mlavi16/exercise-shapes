@@ -1,0 +1,17 @@
+.title{
+	text-align: center;
+	font-size: 50px;
+}
+
+#hello{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#animalImage{
+	width: 30%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
